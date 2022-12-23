@@ -1,0 +1,78 @@
+//AUTHOR : M. WASEEM JAWAD IQBAL
+//CLASS BSCS SECTION-D
+//ROLL NO : 13
+
+#include<iostream>
+using namespace std;
+#include<cmath>
+
+int mysum(int a, int b){
+	return a+b;
+}
+int mysub(int a,int b){
+	return a-b;
+}
+int myprod(int a, int b){
+	return a*b;
+}
+float mydiv(float a, float b){
+	return a/b;
+}
+
+float myqout(float a, float b){
+    return a/b;
+}
+
+int myremain(int a, int b){
+    return a % b;
+}
+
+int main(){
+	int a,b, add,sub,prod,div, quotient, remainder;
+    cin>>a;
+    cin>>b;
+	add = mysum(a,b);
+	cout<<"_______________________"<<endl;
+	cout<<"Addition of "<<a<<" and "<<b <<" is "<<add<<endl;
+		cout<<"_______________________"<<endl;
+	sub = mysub(a,b);
+	cout<<"Subtraction of "<<a<<" and "<<b <<" is "<<sub<<endl;
+	
+		cout<<"_______________________"<<endl;
+	prod = myprod(a,b);
+	cout<<"Product of "<<a<<" and "<<b <<" is "<<prod<<endl;
+
+	cout<<"_______________________"<<endl;
+	div = mydiv(a,b);
+	cout<<"Division of "<<a<<" and "<<b <<" is "<<div<<endl;
+	
+		cout<<"_______________________"<<endl;
+	cout<<"log of "<<a<<" is "<<log(a)<<endl;
+	cout<<"log of "<<b<<" is "<<log(b)<<endl;
+	
+		cout<<"_______________________"<<endl;
+		
+	cout<<"SquareRoot of "<<a<<" is "<<sqrt(a)<<endl;
+	cout<<"SquareRoot of "<<b<<" is "<<sqrt(b)<<endl;
+	
+	cout<<"_______________________"<<endl;
+	quotient = myqout(a,b);
+	cout<<"Quotient of "<<a<<" and "<<b<<" is "<<quotient<<endl;
+	remainder = myremain(a,b);
+	cout<<"Remainder of "<<a<<" and "<<b<<" is "<<remainder<<endl;
+	    
+	    	cout<<"_______________________"<<endl;
+	cout<<"sin of "<<a<<" is "<<sin(a)<<endl;
+	cout<<"sinh of "<<a<<" is "<<sinh(a)<<endl;
+	
+		cout<<"_______________________"<<endl;
+	cout<<"sin of "<<b<<" is "<<sin(b)<<endl;
+	cout<<"sinh of "<<b<<" is "<<sinh(b)<<endl;
+	
+		cout<<"_______________________"<<endl;
+	cout<<"tan of "<<a<<" is "<<tan(a)<<endl;
+	cout<<"tanh of "<<a<<" is "<<tanh(a)<<endl;
+	
+	cout<<"tan of "<<b<<" is "<<tan(b)<<endl;
+	cout<<"tanh of "<<b<<" is "<<tanh(b)<<endl;
+}
